@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const t=document.querySelector("#reviews");if(!t)return;new IntersectionObserver((r,c)=>{r.forEach(n=>{if(n.isIntersecting){const e=document.createElement("script");e.src="https://www.google.com/recaptcha/api.js",e.async=!0,e.defer=!0,document.body.appendChild(e),c.disconnect()}})},{threshold:.1}).observe(t)});
